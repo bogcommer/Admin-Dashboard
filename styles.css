@@ -1,0 +1,46 @@
+/* Initial styling, done now to help setup grid */
+
+.sidebar {
+    background-color: #1892d3;
+}
+
+.projects, .user-info {
+    background-color: #e1e8f0;
+}
+
+.card, .info-card {
+    background-color: white;
+}
+
+/* Grid */
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr 5fr;
+}
+
+.header {
+    grid-column: 2 / 4;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 2fr;
+}
+
+.searchbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchbar > input {
+    width: 40vw;
+    background-color: #e1e8f0;
+    border: none;
+    border-radius: 7px;
+    height: 20px;
+}
+
+.sidebar {
+    grid-row: 1 / 3
+}
