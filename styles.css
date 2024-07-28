@@ -189,3 +189,39 @@ body {
     text-decoration-color: white;
     cursor: grab;
 }
+
+/* Projects */
+
+.card {
+    border-radius: 7px;
+    border-left: 7px solid #f2b327;
+    padding: 40px;
+}
+
+.card-icons {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 40px;
+}
+
+.card-icons > svg {
+    height: 25px;
+}
+
+.projects {
+    padding: 10px;
+    padding-left: 20px;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(3, 20vh);
+    gap: 40px;
+    margin-top: 10px;
+}
+
+.projects-title {
+    padding-top: 20px;
+}
