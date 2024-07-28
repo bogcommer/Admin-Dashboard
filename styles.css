@@ -196,6 +196,7 @@ body {
     border-radius: 7px;
     border-left: 7px solid #f2b327;
     padding: 40px;
+    box-shadow: 0px 10px 10px rgb(0, 0, 0, 0.1);
 }
 
 .card-icons {
@@ -224,4 +225,71 @@ body {
 
 .projects-title {
     padding-top: 20px;
+}
+
+/* user info */
+
+.user-info {
+    padding-left: 10px;
+    padding-right: 20px;
+    padding-top: 40px;
+}
+
+.card-content {
+    display: grid;
+    grid-template-rows: repeat(2 1fr);
+    gap: 5vh;
+}
+
+.info-div {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.trending-div {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.info-card {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 7px;
+    box-shadow: 0px 10px 10px rgb(0, 0, 0, 0.1);
+} 
+
+.info-card > .info {
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(0, 0, 0, 0.2);
+}
+
+.info-card > .info > p {
+    color: rgb(0, 0, 0, 0.7);
+}
+
+.trend-profile > .profile-icon {
+    height: 45px;
+    width: 45px;
+    border-radius: 100%;
+}
+
+.trend-profile {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+.profile-info {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.profile-info p {
+    color: rgb(0, 0, 0, 0.7);
 }
